@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @heykleb
 - 👀 I’m interested in IT
-- 🌱 I’m currently learning Python
+- 🌱 I’m currently learning C/C++
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
