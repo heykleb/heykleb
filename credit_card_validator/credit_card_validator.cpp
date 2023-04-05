@@ -79,7 +79,18 @@ int main() {
 					continue;
 				}
 				else {
-					std::cout << "The card data was entered correctly" << std::endl << std::endl;
+					std::cout << "The card data was entered correctly" << std::endl;
+					if (userCardNumber[0] == '5') {
+						std::cout << "Your card belongs to the MasterCard payment system" << std::endl;
+					} else if (userCardNumber[0] == '4') {
+						std::cout << "Your card belongs to the Visa payment system" << std::endl;
+					} else if (userCardNumber[0] == '3') {
+						std::cout << "Your card belongs to the American Express payment system" << std::endl;
+					} else if (userCardNumber[0] == '2') {
+						std::cout << "Your card belongs to the MIR payment system" << std::endl;
+					} else {
+						std::cout << "I do not know what payment system your bank card belongs to" << std::endl;
+					}
 				}
 
 			}
